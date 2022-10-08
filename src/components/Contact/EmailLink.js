@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
+import meta from '../../data/meta';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
@@ -10,21 +11,14 @@ const validateText = (text) => {
 };
 
 const messages = [
+  meta.email.slice(0, meta.email.indexOf('@')),
   'hi',
   'hello',
   'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
+  'you.can.also.email.me.any.questions.you.have',
   'thanks',
+  meta.email.slice(0, meta.email.indexOf('@')),
 ];
 
 const useInterval = (callback, delay) => {
@@ -46,7 +40,7 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = ({ loopMessage }) => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const hold = 30; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
@@ -82,9 +76,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}${meta.email.split(meta.email.indexOf('@') - 1, meta.email.length - 1)}` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>{`${meta.email.slice(meta.email.indexOf('@'), meta.email.length)}`}</span>
       </a>
     </div>
   );

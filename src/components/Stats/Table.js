@@ -13,6 +13,7 @@ const Table = ({ data }) => (
           label={pair.label}
           link={pair.link}
           value={pair.value}
+          content={pair.content}
         />
       ))}
     </tbody>
@@ -24,6 +25,7 @@ Table.propTypes = {
     format: PropTypes.func,
     label: PropTypes.string.isRequired,
     link: PropTypes.string,
+    content: PropTypes.string,
     value: PropTypes.oneOfType([
       PropTypes.element,
       PropTypes.number,

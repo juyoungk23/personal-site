@@ -7,11 +7,13 @@ import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
+import meta from '../data/meta';
+
 const Main = (props) => (
   <HelmetProvider>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | Michael D'Angelo" defaultTitle="Michael D'Angelo" defer={false}>
+    <Helmet titleTemplate={`%s | ${meta.displayName}`} defaultTitle={meta.displayName} defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
@@ -39,7 +41,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Michael D'Angelo's personal website.",
+  description: 'My personal website.',
 };
 
 export default Main;
