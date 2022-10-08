@@ -12,10 +12,10 @@ const routes = [
     label: 'Resume',
     path: '/resume',
   },
-  {
-    label: 'Projects',
-    path: '/projects',
-  },
+  // {
+  //   label: 'Projects',
+  //   path: '/projects',
+  // },
   {
     label: 'More',
     path: '/stats',
