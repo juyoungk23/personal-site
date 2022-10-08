@@ -50,7 +50,7 @@ const meta = {
       company: 'Carolina Connection',
       position: 'Audio Engineer',
       link: 'https://carolinaconnection.org/',
-      daterange: 'August 2020 - May 2020',
+      daterange: 'August 2020 - May 2021',
       points: [
         'Mixed and mastered audio for the weekly Carolina Connection Radio show at UNC-CH',
         'Worked with Adobe Audition and several third-party audio production plugins to bring a crystal-clear sound to the show every week',
