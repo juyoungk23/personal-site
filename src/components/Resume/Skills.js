@@ -12,7 +12,7 @@ const handleProps = ({ categories, skills }) => ({
         ...obj,
         [key]: false,
       }),
-      { All: true }
+      { All: true },
     ),
   skills,
 });
@@ -30,7 +30,7 @@ class Skills extends Component {
     // search for true active categories
     const actCat = Object.keys(this.state.buttons).reduce(
       (cat, key) => (this.state.buttons[key] ? key : cat),
-      'All'
+      'All',
     );
 
     return this.state.skills
@@ -73,7 +73,7 @@ class Skills extends Component {
           ...obj,
           [key]: label === key && !prevState.buttons[key],
         }),
-        {}
+        {},
       );
       // Turn on 'All' button if other buttons are off
       buttons.All = !Object.keys(prevState.buttons).some((key) => buttons[key]);
@@ -101,13 +101,13 @@ Skills.propTypes = {
       title: PropTypes.string,
       competency: PropTypes.number,
       category: PropTypes.arrayOf(PropTypes.string),
-    })
+    }),
   ),
   categories: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
       color: PropTypes.string,
-    })
+    }),
   ),
 };
 
