@@ -32,10 +32,8 @@ const meta = {
       position: 'Founder, C.E.O',
       daterange: 'September 2022 - Present',
       points: [
-        'Deployed quantitative strategies to predict the value of fine art in various pricing contexts.',
-        'Built production, on-line, end-to-end optimized machine learning pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster, Postgres, etc. on GCP with Kubernetes.',
-        'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-        'YC Alumn. Worked on everything. Built a 16-person team. Operated company for 6+ years.',
+        'Developing an augmented reality application.',
+        '(Not getting into too much more detail here until the application is released)',
       ],
     },
     experience2: {
@@ -44,8 +42,8 @@ const meta = {
       link: 'https://www.wellsfargo.com/',
       daterange: 'June 2022 - August 2022',
       points: [
-        'Founded a micro-vc fund to throw token amounts of money at problems I find interesting.',
-        'Created the InstaSafe. Fast, automated investment docs for YC companies.',
+        `Developed a working health check dashboard for Wells Fargo’s data warehouse, which will be used in
+        real-time by the developers of the team.`,
       ],
     },
     experience3: {
@@ -54,9 +52,9 @@ const meta = {
       link: 'https://carolinaconnection.org/',
       daterange: 'August 2020 - May 2020',
       points: [
-        'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-        'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-        'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+        'Mixed and mastered audio for the weekly Carolina Connection Radio show at UNC-CH',
+        'Worked with Adobe Audition and several third-party audio production plugins to bring a crystal-clear sound to the show every week',
+        'Aired at WCHL-97.9',
       ],
     },
     experience4: {
@@ -65,8 +63,9 @@ const meta = {
       link: 'https://www.shiplify.com/',
       daterange: 'December 2020 - Present',
       points: [
-        'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-        'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
+        `Provide accurate information on hundreds of addresses for freight truck companies in order to
+        streamline operations and minimize loss of revenue.`,
+        'Shiplify provides accurate, real-time location data to help LTL carriers apply the correct accessorial fees to invoices before they are sent to customers.',
       ],
     },
   },
