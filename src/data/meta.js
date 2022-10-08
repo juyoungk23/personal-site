@@ -4,7 +4,7 @@ const meta = {
   email: 'juyoungk23@gmail.com',
   picture: 'profilepic.jpg',
   sideBarAboutMe:
-    "Hi, I'm Juyoung. I like building things. I am a senior at UNC-CH studying Computer Science, musician, and founder of Agora.",
+    "Hi, I'm Juyoung. I like building things. I am a senior at UNC-CH, a musician, and the founder of Agora.",
   socialGithub: 'https://github.com/juyoungk23',
   socialFacebook: 'https://www.facebook.com/profile.php?id=100068944568739',
   socialInstagram: 'https://www.instagram.com/juyoung.kim/',
