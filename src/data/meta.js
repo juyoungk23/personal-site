@@ -189,6 +189,51 @@ const meta = {
       number: 'BUSI 500',
       university: 'UNC-CH',
     },
+    {
+      title: 'Modern Web Programming',
+      number: 'COMP 426',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Files and Databases',
+      number: 'COMP 421',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Algorithms and Analysis',
+      number: 'COMP 550',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Models of Languages and Computation',
+      number: 'COMP 455',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Peer Tutoring',
+      number: 'EDUC 387',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Foundation of Programming',
+      number: 'COMP 401',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Data Structures',
+      number: 'COMP 410',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Computer Organization',
+      number: 'COMP 411',
+      university: 'UNC-CH',
+    },
+    {
+      title: 'Discrete Structures',
+      number: 'COMP 283',
+      university: 'UNC-CH',
+    },
   ],
   // Stats
   birthdate: '2001-04-30T18:30:00',
