@@ -76,7 +76,7 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}${meta.email.split(meta.email.indexOf('@') - 1, meta.email.length - 1)}` : ''}>
+      <a href={`mailto:${meta.email}`}>
         <span>{message}</span>
         <span>{`${meta.email.slice(meta.email.indexOf('@'), meta.email.length)}`}</span>
       </a>
