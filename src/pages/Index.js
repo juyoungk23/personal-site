@@ -27,13 +27,13 @@ const Index = () => (
       </p>
       <p>
         {' '}
+        If you would like to have one of these websites yourself, <a href="https://forms.gle/95ZH9hVZ6AsEJDEN6" target="_blank" rel="noreferrer">please fill out this Google Form</a>!
+        The price is $15, and all proceeds to go Make-A-Wish.
         You can also Pre-Order this service, so that you can
         get your website at a later date when your resume is more finalized.
         This $15 offer ends on October 22th.
       </p>
       <p>
-        If you would like to have one of these websites yourself, <a href="https://forms.gle/95ZH9hVZ6AsEJDEN6" target="_blank" rel="noreferrer">please fill out this Google Form</a>!
-        The price is $15, and all proceeds to go Make-A-Wish.
         If you have any questions, please feel free to <Link to="/contact">contact</Link> me.
       </p>
     </article>
