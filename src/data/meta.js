@@ -237,8 +237,8 @@ const meta = {
   ],
   // Stats
   birthdate: '2001-04-30T18:30:00',
-  currentCity: 'Chapel Hill',
-  hometown: 'Chapel Hill',
+  currentCity: 'Chapel Hill, NC',
+  hometown: 'Chapel Hill, NC',
   myFavoriteThings: {
     movie: 'The Batman',
     album: 'good kid, m.A.A.d city',
