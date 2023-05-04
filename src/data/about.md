@@ -3,9 +3,11 @@
 
 Hello! My name is Juyoung and I love creating things: I like to play violin, make rap instrumentals, and code cool projects in my free time.
 
+I am originally from South Korea, and I have lived in Chapel Hill for most of my life. I will be moving to San Francisco in late June of 2023, and I can't express how excited and grateful I am to begin building my life as a young adult. I am passionate about creating things, whether that be through my music, or through software. I love my friends and family, and I wish to build great relationships wherever I go. 
+
 # Currently
 
-I am a student at the University of North Carolina at Chapel Hill. I am finishing my senior year and I am pursuing a B.S. in Computer Science.
+I am a recent graduate from the University of North Carolina at Chapel Hill. I am preparing to move to San Francisco!
 
 # I like
 
@@ -36,12 +38,12 @@ I am a student at the University of North Carolina at Chapel Hill. I am finishin
 - I break about 30 traffic laws on a [cruiser](https://landyachtz.com/boards/cruiser/), [onewheel](https://onewheel.com/products/xr), [bicycle](https://www.citibikenyc.com/), or [electric skateboard](https://boostedusa.com/collections/electric-skateboards/products/boosted-mini-x) every single day.
 - I added this page because so many people complained that my site was just my resume. -->
 
-# I dream of
+# I aim to
 
-- always finding inspiration.
-- enabling a brighter future.
-- doing better.
-- enjoying company of my friends and family.
+- always have integrity.
+- enable a brighter future for me and my family.
+- do better.
+- brighten people's moods
 
 <!-- 
 
