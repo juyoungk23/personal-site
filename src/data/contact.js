@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+// import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 // import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
@@ -14,11 +14,6 @@ const data = [
     link: meta.socialGithub,
     label: 'Github',
     icon: faGithub,
-  },
-  {
-    link: meta.socialFacebook,
-    label: 'Facebook',
-    icon: faFacebookF,
   },
   {
     link: meta.socialInstagram,

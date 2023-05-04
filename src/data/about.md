@@ -1,7 +1,7 @@
 
 # Intro
 
-I am the founder of Agora, which uses Augmented Reality to bring a unique experience to users. It is currently in development but I plan to release the first version of Agora by the start of 2023. I love creating things: I like to play violin, make rap instrumentals, and code cool projects in my free time.
+Hello! My name is Juyoung and I love creating things: I like to play violin, make rap instrumentals, and code cool projects in my free time.
 
 # Currently
 

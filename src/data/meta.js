@@ -4,9 +4,9 @@ const meta = {
   email: 'juyoungk23@gmail.com',
   picture: 'profilepic.jpg',
   sideBarAboutMe:
-    "Hi, I'm Juyoung. I like building things. I am a senior at UNC-CH, a musician, and the founder of Agora.",
+    "Hi, I'm Juyoung. I like building things. I am a recent graduate from UNC-CH, a musician, and a life-long learner.",
   socialGithub: 'https://github.com/juyoungk23',
-  socialFacebook: 'https://www.facebook.com/profile.php?id=100068944568739',
+  // socialFacebook: 'https://www.facebook.com/profile.php?id=100068944568739',
   socialInstagram: 'https://www.instagram.com/juyoung.kim/',
   socialLinkedin: 'https://www.linkedin.com/in/juyoung-kim-2023/',
   socialYoutube: '',
@@ -28,22 +28,27 @@ const meta = {
   // Experience
   experience: {
     experience1: {
-      company: 'Agora',
-      position: 'Founder, C.E.O',
-      daterange: 'September 2022 - Present',
-      points: [
-        'Developing an augmented reality application.',
-        '(Not getting into too much more detail here until the application is released)',
-      ],
-    },
-    experience2: {
       company: 'Wells Fargo',
       position: 'Software Engineering Intern',
       link: 'https://www.wellsfargo.com/',
       daterange: 'June 2022 - August 2022',
       points: [
-        `Developed a working health check dashboard for Wells Fargo’s data warehouse, which will be used in
-        real-time by the developers of the team.`,
+        `During my 10-week internship, I developed a real-time dashboard and notification system for the developer team to monitor loan application statuses.
+        `,
+        `Received a Shared Success Corporate Recognition for Learning and Growing from my team.
+        `,
+      ],
+    },
+    experience2: {
+      company: 'Shiplify',
+      position: 'Operations Consultant',
+      link: 'https://www.shiplify.com/',
+      daterange: 'December 2020 - Present',
+      points: [
+        `Provide accurate locational information for LTL shipment companies to optimize operations and minimize revenue loss.
+        `,
+        `Rapidly advanced through 3 promotions to join the Data Quality Task Force, responsible for ensuring data accuracy and integrity by cleaning up data from lower teams.
+        `,
       ],
     },
     experience3: {
@@ -52,20 +57,9 @@ const meta = {
       link: 'https://carolinaconnection.org/',
       daterange: 'August 2020 - May 2021',
       points: [
-        'Mixed and mastered audio for the weekly Carolina Connection Radio show at UNC-CH',
-        'Worked with Adobe Audition and several third-party audio production plugins to bring a crystal-clear sound to the show every week',
-        'Aired at WCHL-97.9',
-      ],
-    },
-    experience4: {
-      company: 'Shiplify',
-      position: 'Operations Consultant',
-      link: 'https://www.shiplify.com/',
-      daterange: 'December 2020 - Present',
-      points: [
-        `Provide accurate information on hundreds of addresses for freight truck companies in order to
-        streamline operations and minimize loss of revenue.`,
-        'Shiplify provides accurate, real-time location data to help LTL carriers apply the correct accessorial fees to invoices before they are sent to customers.',
+        'Carolina Connection is a student-produced radio show that airs on WCHL-97.9 every Saturday morning at noon.',
+        'As the Audio Engineer, I mixed, mastered, and finalized the weekly Carolina Connection Radio show.',
+        'Worked with Adobe Audition and several audio production software to bring a crystal-clear sound to the show every week',
       ],
     },
   },
@@ -73,7 +67,12 @@ const meta = {
   skills: [
     {
       title: 'Javascript',
-      competency: 4,
+      competency: 5,
+      category: ['Web Development', 'Languages', 'Javascript'],
+    },
+    {
+      title: 'Java',
+      competency: 3,
       category: ['Web Development', 'Languages', 'Javascript'],
     },
     {
@@ -87,29 +86,19 @@ const meta = {
       category: ['Web Development', 'Javascript'],
     },
     {
-      title: 'Heroku',
-      competency: 2,
-      category: ['Web Development', 'Tools'],
-    },
-    {
       title: 'MS-SQL / T-SQL',
       competency: 5,
       category: ['Databases', 'Languages'],
     },
     {
       title: 'Flask',
-      competency: 2,
+      competency: 3,
       category: ['Web Development', 'Python'],
     },
     {
       title: 'Git',
       competency: 3,
       category: ['Tools'],
-    },
-    {
-      title: 'Numpy',
-      competency: 3,
-      category: ['Data Science', 'Data Engineering', 'Python'],
     },
     {
       title: 'Tensorflow',
@@ -128,7 +117,7 @@ const meta = {
     },
     {
       title: 'HTML + SASS/SCSS/CSS',
-      competency: 3,
+      competency: 4,
       category: ['Web Development', 'Languages'],
     },
     {
@@ -142,19 +131,14 @@ const meta = {
       category: ['Languages'],
     },
     {
-      title: 'Pandas',
-      competency: 3,
-      category: ['Data Engineering', 'Data Science', 'Python'],
-    },
-    {
-      title: 'Scikit-Learn',
-      competency: 4,
-      category: ['Data Engineering', 'Data Science', 'Python'],
-    },
-    {
       title: 'C#',
       competency: 4,
       category: ['Web Development', 'Languages'],
+    },
+    {
+      title: 'Unity',
+      competency: 3,
+      category: ['Tools'],
     },
   ],
   // Courses
@@ -241,7 +225,7 @@ const meta = {
   hometown: 'Chapel Hill, NC',
   myFavoriteThings: {
     movie: 'The Batman',
-    album: 'good kid, m.A.A.d city',
+    album: 'Views by Drake',
     sport: 'Mixed Martial Arts',
     musician: 'Augustin Hadelich',
   },
