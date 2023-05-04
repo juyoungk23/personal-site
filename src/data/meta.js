@@ -73,7 +73,7 @@ const meta = {
     {
       title: 'Java',
       competency: 3,
-      category: ['Web Development', 'Languages', 'Javascript'],
+      category: ['Web Development', 'Languages'],
     },
     {
       title: 'Node.JS',
