@@ -48,7 +48,12 @@ const data = [
     value: meta.myFavoriteThings.movie,
   },
   {
-    key: 'music',
+    key: 'song',
+    label: 'My Current Favorite Song',
+    value: meta.myFavoriteThings.favoriteSong,
+  },
+  {
+    key: 'album',
     label: 'My Favorite Album',
     value: meta.myFavoriteThings.album,
   },

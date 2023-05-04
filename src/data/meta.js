@@ -225,6 +225,7 @@ const meta = {
   hometown: 'Chapel Hill, NC',
   myFavoriteThings: {
     movie: 'The Batman',
+    favoriteSong: 'Smells Like Teen Spirit by Nirvana',
     album: 'Views by Drake',
     sport: 'Mixed Martial Arts',
     musician: 'Augustin Hadelich',
